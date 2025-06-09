@@ -20,4 +20,7 @@ def get_superheroes():
     rows = ["Spiderman", "Iron man", "Hulk", "Wolverine", "Ghost rider"]
     return rows
 
-
+@app.get("/cursosPlatzi")
+def get_cursos():
+    rows = ["Docker", "Bash", "Linux", "Inglés", "Python", "Javascript", "API"]
+    return rows
